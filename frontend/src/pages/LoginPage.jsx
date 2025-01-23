@@ -39,8 +39,8 @@ const LoginPage = () => {
 			overflow-hidden'
 		>
       <div className="p-8" >
-      <h2 className="text-3xl font-bold m-6 text-center bg-gradient-to-r bg-clip-text text-white">
-          Welcome
+        <h2 className="text-3xl font-bold m-6 text-center bg-gradient-to-r bg-clip-text text-white">
+          Login 
         </h2>        
         {/* FORM TO SIGN UP USER */}
         <form onSubmit={handleLogin} >             

@@ -13,7 +13,6 @@ const EmailVerification = () => {
 
     const handleChange = (index, value) => {
 		const newCode = [...code];
-
 		//TOKEN PASTED FROM EMAIL HERE
         /**
          * CHECK IF A USER PASTED A TOKEN LONGER THAN 1

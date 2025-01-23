@@ -106,9 +106,9 @@ function App() {
         // <RedirectAuthUser>
         //   <VerifyEmail/>
         // </RedirectAuthUser>
-        <ProtectedRoute >
           <VerifyEmail/>
-      </ProtectedRoute> 
+        // <ProtectedRoute >
+      // </ProtectedRoute> 
       } />
 
       <Route path ="/forgot-password" element={   
