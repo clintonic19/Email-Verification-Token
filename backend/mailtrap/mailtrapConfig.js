@@ -33,4 +33,4 @@ const sender = {
 //   })
 //   .then(console.log, console.error);
 
-module.exports = {client, sender};
+module.exports = { client, sender };
