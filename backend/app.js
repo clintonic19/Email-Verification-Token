@@ -23,7 +23,7 @@ const _dirname = path.resolve();
 
 //CORS
 app.use(cors({ 
-    origin: "http://localhost:5173", 
+    origin: "http://localhost:5174, ", 
     credentials: true // enable set cookie
     }));
 

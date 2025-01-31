@@ -21,7 +21,7 @@ const LoginPage = () => {
     try {
       await login(email, password);
       navigate("/");
-      toast.success("Login Succussful");
+      toast.success("Login Successful");
       setTimeout(() => {
       }, 1100);
     } catch (error) {

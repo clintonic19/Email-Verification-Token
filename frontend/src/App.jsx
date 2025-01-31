@@ -21,7 +21,7 @@ import ResetPassword from "./pages/ResetPassword";
 // PROTECTED ROUTE FOR AUTHENTICATED USER
 const ProtectedRoute = ({children}) =>{
   const { isAuthenticated, user } = useStore();
-
+console.log(children,":::::::::::::::::::::::")
   // IF USER IS NOT AUTHENTICATED
   if(!isAuthenticated){
     return <Navigate to="/login" replace/>
@@ -107,7 +107,7 @@ function App() {
         //   <VerifyEmail/>
         // </RedirectAuthUser>
           <VerifyEmail/>
-        // <ProtectedRoute >
+      //   <ProtectedRoute >
       // </ProtectedRoute> 
       } />
 
